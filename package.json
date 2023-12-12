@@ -1,7 +1,7 @@
 {
   "name": "movies_bcryptjwt",
   "version": "1.0.0",
-  "description": "There are two different branches associated with this lesson.\r - Main\r   - This branch provides the base notes of material not filled out.\r - Completed\r   - This branch includes all the added notes for you to review and compare with your own code-along.",
+  "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
