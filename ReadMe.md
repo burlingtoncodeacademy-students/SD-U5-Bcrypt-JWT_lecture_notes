@@ -12,32 +12,39 @@ There are two different branches associated with this lesson.
 - **Mongo Compass** is installed. Download link below.
 
 ### Topics Covered
-- Introduction to MongoDB
-- Introduction to Models
-- Mongoose
-- Dotenv
+- Bcrypt
+  - Encryption, Hashing, and Salting
+- JSON Web Token (JWT)
 
 ### What Should Already Be Understood
-- Testing routes within Postman
 - Express server setup and spin-up
-  - Connecting routes & middleware.
-  - Working with dependencies
-- `.gitignore` and `node_modules`
 - Basic file / folder structuring
+- node package manager (npm)
+- Routes/Controllers
+- Models/Schema structure
+  - mongoose
+- `dotenv`
 
 ## Files / Folders in this Lesson
 - assets
-  - `Database Concept.png`
   - `Routes & Endpoints_Express and MongoDB File Overview.pdf`
 - controllers
   - `user.controller.js`
+- models
+  - `user.model.js`
 - `.gitignore`
 - `app.js`
+- `example.env`
+  - `.env` will need to be included if cloned.
 - `package.json`
 - `notes.md`
 
+1. If this repo is cloned, be sure to run `npm install` within the project folder to install all dependencies within `package.json`. This will add the `node_modules` necessary to the project.
+
 ## Resources
-- [Data Modeling Docs](https://www.mongodb.com/docs/manual/core/data-modeling-introduction/)
+- [JWT](https://jwt.io/#debugger-io)
+- [npm bcrypt](https://www.npmjs.com/package/bcrypt)
+- [npm jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)
 - Downloads:
   - [Postman Download](https://www.postman.com/downloads/)
   - [npm](https://www.npmjs.com/)
